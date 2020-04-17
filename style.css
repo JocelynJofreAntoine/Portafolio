@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body {
+    background-color: #E6B0AA;
+}
+
+.header {
+    background-color: rgb(24, 23, 23);
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.btn {
+    color: rgb(155, 152, 152);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 45px;
+    max-width: 160px;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 100%;
+    font-family: 'Advent Pro', sans-serif;
+}
+
+.btn-2 {
+    letter-spacing: 0;
+}
+
+.btn-2:hover,
+.btn-2:active {
+    letter-spacing: 3px;
+}
+
+.btn-2:after,
+.btn-2:before {
+    backface-visibility: hidden;
+    bottom: 0px;
+    content: " ";
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    transition: all 280ms ease-in-out;
+    width: 0;
+}
+
+.btn-2:hover:after,
+.btn-2:hover:before {
+    backface-visibility: hidden;
+    border-color: #fff;
+    transition: width 350ms ease-in-out;
+    width: 70%;
+}
+
+.container_one {
+    background-color: rgb(24, 23, 23);
+    width: 100%;
+    height: 28rem;
+    display: flex;
+    margin-top: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3%;
+}
+
+.title {
+    font-family: "Montserrat";
+    text-align: center;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    letter-spacing: 2px;
+}
+
+h1 {
+    background-image: url(https://media0.giphy.com/media/126jxQSflEozPW/giphy.gif?cid=790b761183368f2934c9dfbd0dd82ae2a92de1534f53fc0b&rid=giphy.gif);
+    background-size: cover;
+    color: transparent;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    text-transform: uppercase;
+    font-size: 9vw;
+    line-height: .75;
+}
+
+h2 {
+    color: rgb(155, 152, 152);
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 2.5vw;
+    letter-spacing: 0.5px;
+    justify-content: flex-end;
+}
+
+.container_two {
+    background-color: rgb(24, 23, 23);
+    width: 100%;
+    height: 35rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    align-content: space-between;
+    flex-direction: column;
+}
+
+.sub_title {
+    font-family: "Montserrat";
+    text-align: center;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 20%;
+    letter-spacing: 1px;
+}
+
+h4 {
+    background-image: url(https://media0.giphy.com/media/126jxQSflEozPW/giphy.gif?cid=790b761183368f2934c9dfbd0dd82ae2a92de1534f53fc0b&rid=giphy.gif);
+    background-size: cover;
+    color: transparent;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    text-transform: uppercase;
+    font-size: 40px;
+    line-height: .75;
+}
+
+.heart {
+    width: 5rem;
+}
+
+.description {
+    width: 35rem;
+    height: 15rem;
+    background-color: none;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: flex-start;
+}
+
+h3 {
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: justify;
+    line-height: 1.7rem;
+    color: rgb(155, 152, 152);
+}
+
+.mini_container {
+    background-color: rgb(24, 23, 23);
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    margin-top: 1rem;
+    align-items: center;
+    align-items: flex-end;
+    justify-content: space-around;
+    padding-top: 1%;
+}
+
+.container_three {
+    background-color: rgb(24, 23, 23);
+    width: 100%;
+    height: 31rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 1%;
+}
+
+.first_proyect,
+.second_proyect,
+.third_proyect {
+    width: 16rem;
+    height: 17rem;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.container_button_one,
+.container_button_two,
+.container_button_three {
+    background: transparent;
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    margin-top: 1rem;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 1%;
+}
+
+.git_one,
+.deploy_one {
+    font-family: 'Advent Pro', sans-serif;
+    margin: auto;
+    width: 30%;
+    background-color: rgb(24, 23, 23);
+    outline: none;
+    color: rgb(155, 152, 152);
+    border-radius: 10px;
+}
+
+.git_one:hover,
+.deploy_one:hover {
+    backface-visibility: hidden;
+    border-color: #fff;
+    transition: width 350ms ease-in-out;
+    width: 35%;
+    background-color: rgb(155, 152, 152);
+    color: rgb(24, 23, 23);
+    border: transparent;
+}
+
+.footer {
+    background-color: rgb(24, 23, 23);
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    margin-top: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    color: rgb(155, 152, 152);
+    font-size: 11px;
+    font-weight: 200;
+    margin: 2rem 0;
+    font-family: 'Advent Pro', sans-serif;
+}
