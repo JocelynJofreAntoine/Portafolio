@@ -186,6 +186,7 @@ h3 {
 .third_proyect {
     width: 16rem;
     height: 17rem;
+    background-color: #E6B0AA;
     justify-content: center;
     align-items: flex-end;
 }
@@ -237,8 +238,33 @@ h3 {
 
 p {
     color: rgb(155, 152, 152);
-    font-size: 11px;
+    font-size: 13px;
     font-weight: 200;
     margin: 2rem 0;
     font-family: 'Advent Pro', sans-serif;
+}
+
+@media screen and (max-width: 350px) {
+    h4 {
+        font-size: 30px;
+    }
+    h1 {
+        font-size: 16vw;
+        flex-direction: column;
+    }
+    .container_three {
+        flex-direction: column;
+    }
+    h3 {
+        width: 15rem;
+        height: 10rem;
+        font-size: 13px;
+        line-height: 1.2rem;
+    }
+    .heart {
+        width: 3rem;
+    }
+    h2 {
+        font-size: 3.8vw;
+    }
 }
