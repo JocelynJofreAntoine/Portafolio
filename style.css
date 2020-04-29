@@ -27,7 +27,7 @@ body {
 
 .btn-2:hover,
 .btn-2:active {
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 
 .container_one {
@@ -75,7 +75,7 @@ h2 {
 .container_two {
     background-color: rgb(24, 23, 23);
     width: 100%;
-    height: 39rem;
+    height: 32rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -113,7 +113,7 @@ h4 {
 
 .description {
     width: 35rem;
-    height: 15rem;
+    height: 17rem;
     background-color: none;
     border-radius: 2rem;
     display: flex;
@@ -134,29 +134,24 @@ h3 {
     color: rgb(155, 152, 152);
 }
 
-.cv_style {
-    font-family: 'Advent Pro', sans-serif;
-    margin-top: 5%;
-    width: 15%;
-    background-color: rgb(24, 23, 23);
-    outline: none;
-    border-radius: 10px;
-    border-color: #F08080;
-}
-
 .cv {
-    text-decoration: none;
-    color: rgb(155, 152, 152);
+    font-family: 'Advent Pro', sans-serif;
+    margin-top: 15%;
+    color: blanchedalmond !important;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0.5em 1.2em;
+    background: rgba(0, 0, 0, 0);
+    border: 2px solid #F08080;
+    border-color: #F08080;
+    transition: all 1s ease;
+    position: relative;
+    border-radius: 20px;
 }
 
 .cv:hover {
-    backface-visibility: hidden;
-    transition: width 350ms ease-in-out;
-    width: 15%;
-    background-color: #F08080;
-    color: white;
-    border: transparent;
-    outline: none !important;
+    background: #F08080;
+    color: #fff !important;
     text-decoration: none;
 }
 
@@ -179,12 +174,11 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding-top: 1%;
 }
 
-.first_proyect,
-.second_proyect,
-.third_proyect {
+.first_project,
+.second_project,
+.third_project {
     width: 16rem;
     height: 18rem;
     background-color: #F08080;
@@ -192,7 +186,7 @@ h3 {
     align-items: flex-end;
 }
 
-.proyects {
+.projects {
     width: 15rem;
     height: 14rem;
     align-items: center;
@@ -266,6 +260,38 @@ h3 {
     background-color: transparent;
 }
 
+.container_five {
+    background-color: rgb(24, 23, 23);
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 1%;
+}
+
+.skills {
+    width: 55rem;
+    height: 8rem;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.javascript,
+.javascript,
+.html5,
+.css3,
+.figma,
+.git-hub,
+.firebase,
+.git {
+    width: 6rem;
+    height: 6rem;
+    background-color: transparent;
+}
+
 .footer {
     background-color: rgb(24, 23, 23);
     width: 100%;
@@ -315,14 +341,14 @@ p {
     .mini_container {
         height: 2.5rem;
     }
-    .first_proyect,
-    .second_proyect,
-    .third_proyect {
+    .first_project,
+    .second_project,
+    .third_project {
         width: 14rem;
         height: 19rem;
         margin-top: 0.3rem;
     }
-    .proyects {
+    .projects {
         width: 13rem;
         height: 13rem;
     }
@@ -353,5 +379,32 @@ p {
         justify-content: center;
         align-items: center;
         margin-left: 20%;
+    }
+    .container_five {
+        height: 10rem;
+    }
+    .javascript,
+    .javascript,
+    .html5,
+    .css3,
+    .figma,
+    .git-hub,
+    .firebase,
+    .git {
+        width: 2rem;
+        height: 2rem;
+        background-color: transparent;
+    }
+    .skills {
+        height: 3rem;
+        background-color: transparent;
+        justify-content: space-around;
+    }
+    .js {
+        width: 2rem;
+        height: 2rem;
+    }
+    .btn {
+        font-size: 12px;
     }
 }
