@@ -381,7 +381,6 @@ p {
     }
     .contact {
         padding-top: 5%;
-        height: 10rem;
     }
     .icon_linkedin,
     .icon_gmail,
@@ -417,5 +416,8 @@ p {
     }
     .btn {
         font-size: 12px;
+    }
+    .description {
+        width: 20rem;
     }
 }
