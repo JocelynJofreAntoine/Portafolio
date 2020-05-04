@@ -198,7 +198,9 @@ h3 {
     align-items: flex-end;
 }
 
-.projects {
+.projects1,
+.projects2,
+.projects3 {
     width: 15rem;
     height: 14rem;
     align-items: center;
@@ -231,6 +233,7 @@ h3 {
     border-radius: 10px;
     border: transparent;
     text-decoration: none;
+    text-align: center;
 }
 
 .git_one:hover,
@@ -334,13 +337,12 @@ p {
     .container_three {
         flex-direction: column;
         padding-top: 5%;
-        height: 51rem;
+        height: 59rem;
         align-content: space-between;
-        padding-bottom: 5%;
+        padding-bottom: 5%
     }
     h3 {
         width: 15rem;
-        height: 10rem;
         font-size: 14px;
         line-height: 1.2rem;
     }
@@ -357,9 +359,9 @@ p {
     .first_project,
     .second_project,
     .third_project {
-        width: 14rem;
+        width: 16rem;
         height: 19rem;
-        margin-top: 0.3rem;
+        margin-top: 5%;
     }
     .projects {
         width: 13rem;
